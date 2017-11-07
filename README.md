@@ -63,43 +63,20 @@
 
 ## 重点文件浏览：
 
-> job.sql #数据库SQL
-> python #python scrapy 爬虫
->> jobs 
->>> movie 
->>>> __init__.py 
->>>> __init__.pyc 
->>>> items.py #数据模型
->>>> items.pyc 
->>>> middlewares.py 
->>>> pipelines.py #保存数据到MySQL
->>>> pipelines.pyc 
->>>> settings.py 
->>>> settings.pyc 
->>>> spiders 
->>>>> init__.py 
->>>>> __init__.pyc 
->>>>> jobs.py #爬取数据
->>>>> jobs.pyc 
->>> scrapy.cfg 
-├── pythonJob #cron爬虫定时任务
-├── README.md 
-└── ROOT #tomcat根目录
-    ├── code #java Servlet RESTful 接口源码
-    │   ├── GetAreasList.java #获取地区
-    │   ├── JobsDistribut.java #获取某地区多个岗位的数量和待遇分布
-    │   └── MySQLDBCon.java #访问数据库的公共文件
-    ├── view #视图文件
-    │   ├── highcharts #图表插件
-    │   ├── Bootstrap #前端视图框架
-    │   ├── index.html #前端入口
-    │   ├── jobCharts.js #当前页面JS
-    │   └── test.html 
-    └── WEB-INF #java编译后的文件和路由配置
-        ├── classes 
-        │   ├── com 
-        │   │   └── dbCon 
-        │   │       └── MySQLDBCon.class 
-        │   ├── GetAreasList.class 
-        │   └── JobsDistribut.class 
-        └── web.xml #路由配置
+[./job.sql](https://github.com/596008520/jobSalarys/blob/master/job.sql)
+
+[./python/jobs/movie/items.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/items.py)
+
+[./python/jobs/movie/spiders/jobs.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/spiders/jobs.py)
+
+[./python/jobs/movie/pipelines.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/pipelines.py)
+
+[./ROOT/view/jobCharts.js](https://github.com/596008520/jobSalarys/blob/master/ROOT/view/jobCharts.js)
+
+[./ROOT/view/index.html](https://github.com/596008520/jobSalarys/blob/master/ROOT/view/index.html)
+
+[./ROOT/code/MySQLDBCon.java](https://github.com/596008520/jobSalarys/blob/master/ROOT/code/MySQLDBCon.java)
+
+[./ROOT/code/GetAreasList.java](https://github.com/596008520/jobSalarys/blob/master/ROOT/code/GetAreasList.java)
+
+[./ROOT/code/JobsDistribut.java](https://github.com/596008520/jobSalarys/blob/master/ROOT/code/JobsDistribut.java)
