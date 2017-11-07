@@ -15,47 +15,47 @@
 
 ### 目录介绍：
 
-├── job.sql /*数据库*/
-├── python /*数据爬虫*/
-│   ├── jobs
-│   │   ├── movie
-│   │   │   ├── __init__.py
-│   │   │   ├── __init__.pyc
-│   │   │   ├── items.py
-│   │   │   ├── items.pyc
-│   │   │   ├── middlewares.py
-│   │   │   ├── pipelines.py
-│   │   │   ├── pipelines.pyc
-│   │   │   ├── settings.py
-│   │   │   ├── settings.pyc
-│   │   │   └── spiders
-│   │   │       ├── __init__.py
-│   │   │       ├── __init__.pyc
-│   │   │       ├── jobs.py
-│   │   │       └── jobs.pyc
-│   │   └── scrapy.cfg
-│   └── jobSalarys
-│       ├── LICENSE
-│       └── README.md
-├── pythonJob /*启动爬虫的定时任务*/
-└── ROOT /*tomcat根目录*/
-    ├── code /*java RESTful Web源代码*/
-    │   ├── GetAreasList.java
-    │   ├── JobsDistribut.java
-    │   └── MySQLDBCon.java
-    ├── view /*视图文件*/
-    │   ├── highcharts /*图表插件*/
-    │   ├── index.html  
-    │   ├── jobCharts.js
-    │   └── test.html
-    └── WEB-INF
-        ├── classes
-        │   ├── com
-        │   │   └── dbCon
-        │   │       └── MySQLDBCon.class
-        │   ├── GetAreasList.class
-        │   └── JobsDistribut.class
-        └── web.xml
+├── job.sql /*数据库*/<br>
+├── python /*数据爬虫*/<br>
+│   ├── jobs<br>
+│   │   ├── movie<br>
+│   │   │   ├── __init__.py<br>
+│   │   │   ├── __init__.pyc<br>
+│   │   │   ├── items.py<br>
+│   │   │   ├── items.pyc<br>
+│   │   │   ├── middlewares.py<br>
+│   │   │   ├── pipelines.py<br>
+│   │   │   ├── pipelines.pyc<br>
+│   │   │   ├── settings.py<br>
+│   │   │   ├── settings.pyc<br>
+│   │   │   └── spiders<br>
+│   │   │       ├── __init__.py<br>
+│   │   │       ├── __init__.pyc<br>
+│   │   │       ├── jobs.py<br>
+│   │   │       └── jobs.pyc<br>
+│   │   └── scrapy.cfg<br>
+│   └── jobSalarys<br>
+│       ├── LICENSE<br>
+│       └── README.md<br>
+├── pythonJob /*启动爬虫的定时任务*/<br>
+└── ROOT /*tomcat根目录*/<br>
+    ├── code /*java RESTful Web源代码*/<br>
+    │   ├── GetAreasList.java<br>
+    │   ├── JobsDistribut.java<br>
+    │   └── MySQLDBCon.java<br>
+    ├── view /*视图文件*/<br>
+    │   ├── highcharts /*图表插件*/<br>
+    │   ├── index.html<br>
+    │   ├── jobCharts.js<br>
+    │   └── test.html<br>
+    └── WEB-INF<br>
+        ├── classes<br>
+        │   ├── com<br>
+        │   │   └── dbCon<br>
+        │   │       └── MySQLDBCon.class<br>
+        │   ├── GetAreasList.class<br>
+        │   └── JobsDistribut.class<br>
+        └── web.xml<br>
 
 
 
