@@ -60,15 +60,14 @@
         │   └── JobsDistribut.class 
         └── web.xml #路由配置
 ```
->	 jobs 
-	>>	 movie 
-	>>>	 __init__.py 
-	>>>	 __init__.pyc 
-	>>>	 items.py #数据模型
-	>>>	 items.pyc 
+
+>23
+>>r3
+>feg
+>>3r3
+>>>3r3r
 	
-###树
->数据结构 >>树 >>>二叉树 >>>>平衡二叉树 >>>>>满二叉树
+
 
 		 job.sql #数据库SQL
 		 python #python scrapy 爬虫
