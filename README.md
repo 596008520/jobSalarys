@@ -68,20 +68,20 @@
 >> jobs 
 >>> movie 
 >>>> __init__.py 
-│       │   ├── __init__.pyc 
-│       │   ├── items.py #数据模型
-│       │   ├── items.pyc 
-│       │   ├── middlewares.py 
-│       │   ├── pipelines.py #保存数据到MySQL
-│       │   ├── pipelines.pyc 
-│       │   ├── settings.py 
-│       │   ├── settings.pyc 
-│       │   └── spiders 
-│       │       ├── __init__.py 
-│       │       ├── __init__.pyc 
-│       │       ├── jobs.py #爬取数据
-│       │       └── jobs.pyc 
-│       └── scrapy.cfg 
+>>>> __init__.pyc 
+>>>> items.py #数据模型
+>>>> items.pyc 
+>>>> middlewares.py 
+>>>> pipelines.py #保存数据到MySQL
+>>>> pipelines.pyc 
+>>>> settings.py 
+>>>> settings.pyc 
+>>>> spiders 
+>>>>> init__.py 
+>>>>> __init__.pyc 
+>>>>> jobs.py #爬取数据
+>>>>> jobs.pyc 
+>>> scrapy.cfg 
 ├── pythonJob #cron爬虫定时任务
 ├── README.md 
 └── ROOT #tomcat根目录
