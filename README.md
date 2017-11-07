@@ -16,6 +16,7 @@
 * 用户提交查询岗位名称和地区，给到后台java接口，java程序查询数据库，有数据直接返回<br>
 * 如果java程序从MySQL中没有查询到，就同时shell命令发起一个爬虫任务，让python程序去网络中抓取，并保存到数据库，然后java程序拿到数据后返回给用户<br>
 * java程序会把用户查询的岗位名称保存到MySQL中，python爬虫定时执行，按周期去更新MySQL数据表，这样，既保证了查询的快速响应，也保证了数据的准确实时<br>
+* 前端布局优化后，在大中小型屏幕上展示，都美观大方
 
 ## 目录介绍：
 ```php
@@ -60,26 +61,6 @@
         │   └── JobsDistribut.class 
         └── web.xml #路由配置
 ```
-
-## 重点文件浏览：
-
-├──	[job.sql](https://github.com/596008520/jobSalarys/blob/master/job.sql)	#数据库SQL	<br>
-├──	python	#python	scrapy	爬虫	<br>
-│			└──	jobs	<br>
-│							└──	movie	<br>
-│										├──	[items.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/items.py)	#数据模型	<br>
-│										├──	[pipelines.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/spiders/jobs.py)	#保存数据到MySQL	<br>
-│										└──	spiders	<br>
-│														└──	[jobs.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/pipelines.py)	#爬取数据	<br>
-├──	[pythonJob]	#cron爬虫定时任务	<br>
-└──	ROOT	#tomcat根目录	<br>
-				├──	code	#java	Servlet	RESTful	接口源码	<br>
-	 	 │	 	├──	[GetAreasList.java](https://github.com/596008520/jobSalarys/blob/master/ROOT/code/MySQLDBCon.java)	#获取地区列表	<br>
-	 	 │	 	├──	[JobsDistribut.java](https://github.com/596008520/jobSalarys/blob/master/ROOT/code/GetAreasList.java)	#获取某地区多个岗位的数量和待遇分布	<br>
-				│			└──	[MySQLDBCon.java](https://github.com/596008520/jobSalarys/blob/master/ROOT/code/JobsDistribut.java)	#访问数据库的公共文件	<br>
-				└──	view	#视图文件	<br>
-							├──	[index.html](https://github.com/596008520/jobSalarys/blob/master/ROOT/view/index.html)	#前端入口	<br>
-							└──	[jobCharts.js](https://github.com/596008520/jobSalarys/blob/master/ROOT/view/jobCharts.js)	#当前页面JS	<br>
  
 
 
