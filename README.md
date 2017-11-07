@@ -63,10 +63,10 @@
 
 ## 重点文件浏览：
 
-`数据库`
+* 数据库
 [./job.sql](https://github.com/596008520/jobSalarys/blob/master/job.sql) `数据库SQL`
 
-python scrapy 爬虫
+* python scrapy 爬虫
 [./python/jobs/movie/items.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/items.py) `数据模型`
 
 [./python/jobs/movie/spiders/jobs.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/spiders/jobs.py) `保存数据到MySQL`
@@ -74,14 +74,14 @@ python scrapy 爬虫
 [./python/jobs/movie/pipelines.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/pipelines.py) `爬取数据`
 
 
-前端视图
+* 前端视图
 [./ROOT/view/jobCharts.js](https://github.com/596008520/jobSalarys/blob/master/ROOT/view/jobCharts.js) `当前页面JS`
 
 [./ROOT/view/index.html](https://github.com/596008520/jobSalarys/blob/master/ROOT/view/index.html) `前端入口`
 
 
 
-java Servlet RESTful 接口源码
+* java Servlet RESTful 接口源码
 [./ROOT/code/MySQLDBCon.java](https://github.com/596008520/jobSalarys/blob/master/ROOT/code/MySQLDBCon.java) `获取地区列表`
 
 [./ROOT/code/GetAreasList.java](https://github.com/596008520/jobSalarys/blob/master/ROOT/code/GetAreasList.java) `获取某地区多个岗位的数量和待遇分布`
