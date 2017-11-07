@@ -23,5 +23,5 @@
 view/<br>
 ├── highcharts `图表插件`<br>
 ├── index.html `前端入口`<br>
-├── jobCharts.js `当前页面Js`<br>
+├── [jobCharts.js](https://github.com/596008520/jobSalarys/blob/master/ROOT/view/jobCharts.js) `当前页面Js`<br>
 └── test.html<br>
