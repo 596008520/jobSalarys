@@ -63,29 +63,29 @@
 
 ## 重点文件浏览：
 
-* 数据库
-[./job.sql](https://github.com/596008520/jobSalarys/blob/master/job.sql) `数据库SQL`
+* 数据库<br>
+[./job.sql](https://github.com/596008520/jobSalarys/blob/master/job.sql) `数据库SQL`<br>
 
-* python scrapy 爬虫
-[./python/jobs/movie/items.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/items.py) `数据模型`
+* python scrapy 爬虫<br>
+[./python/jobs/movie/items.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/items.py) `数据模型`<br>
 
-[./python/jobs/movie/spiders/jobs.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/spiders/jobs.py) `保存数据到MySQL`
+[./python/jobs/movie/spiders/jobs.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/spiders/jobs.py) `保存数据到MySQL`<br>
 
-[./python/jobs/movie/pipelines.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/pipelines.py) `爬取数据`
-
-
-* 前端视图
-[./ROOT/view/jobCharts.js](https://github.com/596008520/jobSalarys/blob/master/ROOT/view/jobCharts.js) `当前页面JS`
-
-[./ROOT/view/index.html](https://github.com/596008520/jobSalarys/blob/master/ROOT/view/index.html) `前端入口`
+[./python/jobs/movie/pipelines.py](https://github.com/596008520/jobSalarys/blob/master/python/jobs/movie/pipelines.py) `爬取数据`<br>
 
 
+* 前端视图<br>
+[./ROOT/view/jobCharts.js](https://github.com/596008520/jobSalarys/blob/master/ROOT/view/jobCharts.js) `当前页面JS`<br>
 
-* java Servlet RESTful 接口源码
-[./ROOT/code/MySQLDBCon.java](https://github.com/596008520/jobSalarys/blob/master/ROOT/code/MySQLDBCon.java) `获取地区列表`
+[./ROOT/view/index.html](https://github.com/596008520/jobSalarys/blob/master/ROOT/view/index.html) `前端入口`<br>
 
-[./ROOT/code/GetAreasList.java](https://github.com/596008520/jobSalarys/blob/master/ROOT/code/GetAreasList.java) `获取某地区多个岗位的数量和待遇分布`
 
-[./ROOT/code/JobsDistribut.java](https://github.com/596008520/jobSalarys/blob/master/ROOT/code/JobsDistribut.java) `访问数据库的公共文件`
+
+* java Servlet RESTful 接口源码<br>
+[./ROOT/code/MySQLDBCon.java](https://github.com/596008520/jobSalarys/blob/master/ROOT/code/MySQLDBCon.java) `获取地区列表`<br>
+
+[./ROOT/code/GetAreasList.java](https://github.com/596008520/jobSalarys/blob/master/ROOT/code/GetAreasList.java) `获取某地区多个岗位的数量和待遇分布`<br>
+
+[./ROOT/code/JobsDistribut.java](https://github.com/596008520/jobSalarys/blob/master/ROOT/code/JobsDistribut.java) `访问数据库的公共文件`<br>
 
 
