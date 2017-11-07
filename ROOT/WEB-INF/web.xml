@@ -1,0 +1,21 @@
+<web-app>
+	
+    <servlet>
+        <servlet-name>JobsDistribut</servlet-name>
+        <servlet-class>JobsDistribut</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JobsDistribut</servlet-name>
+        <url-pattern>/JobsDistribut</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetAreasList</servlet-name>
+        <servlet-class>GetAreasList</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetAreasList</servlet-name>
+        <url-pattern>/GetAreasList</url-pattern>
+    </servlet-mapping>
+
+</web-app>

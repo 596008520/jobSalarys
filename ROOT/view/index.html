@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>职业分布与走势</title>
+		<style type="text/css">
+
+		</style>
+	</head>
+	<body>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="./highcharts/highcharts.js"></script>
+		<script src="./highcharts/modules/data.js"></script>
+		<script src="./highcharts/modules/series-label.js"></script>
+		<script src="./highcharts/modules/exporting.js"></script>
+
+		<!-- Additional files for the Highslide popup effect -->
+		<script src="https://www.highcharts.com/media/com_demo/js/highslide-full.min.js"></script>
+		<script src="https://www.highcharts.com/media/com_demo/js/highslide.config.js" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="https://www.highcharts.com/media/com_demo/css/highslide.css" />
+
+		<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<br>		
+		<div class="container" style="width:720px">
+			<form class="jobs form-inline" style="width:720px">
+				<div class="form-group">
+					<label for="exampleInputName2">输入岗位名</label>
+					<input type="text" class="form-control" style="width:120px;" value="财务" placeholder="财务">
+					<input type="text" class="form-control" style="width:120px;" value="Java" placeholder="Java">
+					<input type="text" class="form-control" style="width:120px;" value="销售" placeholder="销售">
+					<input type="text" class="form-control" style="width:120px;" value="司机" placeholder="司机">
+				</div>
+				<div class="form-group">
+					<label for="name">城市</label>
+					<select class="form-control area"  style="width:90px;">
+					</select>
+				</div>
+			</form>
+		</div>
+		<br>
+	  	<button type="submit" class="search center-block btn btn-primary">查询</button>
+		<br>
+		<div class="alert alert-info center-block search_tip" style="width:600px;visibility:hidden;">
+			正在查询中...（如果您查询的职业不热门，蜘蛛需要实时爬取，请您耐心等待！）
+		</div>
+		<div id="container" style="min-width: 310px; height: 700px; margin: 0 auto"></div>
+
+		<script src="./jobCharts.js" charset="utf-8"></script>
+
+	</body>
+</html>
