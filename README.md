@@ -19,9 +19,45 @@
 
 ## 目录介绍：
 
-前端视图文件<br>
-view/<br>
-├── highcharts `图表插件`<br>
-├── index.html `前端入口`<br>
-├── [jobCharts.js](https://github.com/596008520/jobSalarys/blob/master/ROOT/view/jobCharts.js) `当前页面Js`<br>
-└── test.html<br>
+├── job.sql <br>
+├── LICENSE <br>
+├── preview.png <br>
+├── python <br>
+│   └── jobs <br>
+│       ├── movie <br>
+│       │   ├── __init__.py <br>
+│       │   ├── __init__.pyc <br>
+│       │   ├── items.py <br>
+│       │   ├── items.pyc <br>
+│       │   ├── middlewares.py <br>
+│       │   ├── pipelines.py <br>
+│       │   ├── pipelines.pyc <br>
+│       │   ├── settings.py <br>
+│       │   ├── settings.pyc <br>
+│       │   └── spiders <br>
+│       │       ├── __init__.py <br>
+│       │       ├── __init__.pyc <br>
+│       │       ├── jobs.py <br>
+│       │       └── jobs.pyc <br>
+│       └── scrapy.cfg <br>
+├── pythonJob <br>
+├── README.md <br>
+└── ROOT <br>
+    ├── code <br>
+    │   ├── GetAreasList.java <br>
+    │   ├── JobsDistribut.java <br>
+    │   └── MySQLDBCon.java <br>
+    ├── view <br>
+    │   ├── highcharts <br>
+    │   ├── index.html <br>
+    │   ├── jobCharts.js <br>
+    │   └── test.html <br>
+    └── WEB-INF <br>
+        ├── classes <br>
+        │   ├── com <br>
+        │   │   └── dbCon <br>
+        │   │       └── MySQLDBCon.class <br>
+        │   ├── GetAreasList.class <br>
+        │   └── JobsDistribut.class <br>
+        └── web.xml <br>
+
