@@ -19,9 +19,9 @@
 
 ## 目录介绍：
 
-前端视图文件
-view/
-├── highcharts `图表插件`
-├── index.html `前端入口`
-├── jobCharts.js `当前页面Js`
-└── test.html
+前端视图文件<br>
+view/<br>
+├── highcharts `图表插件`<br>
+├── index.html `前端入口`<br>
+├── jobCharts.js `当前页面Js`<br>
+└── test.html<br>
