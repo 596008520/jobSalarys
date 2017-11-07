@@ -4,11 +4,12 @@
         用户输入任何想要查询的多个岗位，选择查询地区，即可知道该地区，岗位的需求数量和待遇分布情况
 
 ### 技术说明：
-`* 基于Bootstrap，Highcharts 构建的前端交互界面;<br>
+* 基于Bootstrap，Highcharts 构建的前端交互界面;<br>
 * 基于JAVA Servlet 框架的 RESTful API  后台数据接口;<br>
 * 基于python scrapy 的爬虫从网络中采集数据;<br>
-* 采用Mysql数据库;<br>`
+* 采用Mysql数据库;<br>
 
+![baidu](http://www.baidu.com/img/bdlogo.gif)
 
 ### 技术细节：
 * 用户提交查询岗位名称和地区，给到后台java接口，java程序查询数据库，有数据直接返回<br>
