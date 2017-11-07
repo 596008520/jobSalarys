@@ -18,91 +18,46 @@
 * java程序会把用户查询的岗位名称保存到MySQL中，python爬虫定时执行，按周期去更新MySQL数据表，这样，既保证了查询的快速响应，也保证了数据的准确实时<br>
 
 ## 目录介绍：
-
-```html
-
-├── job.sql `数据库SQL`<br>
-├── python `python scrapy 爬虫`<br>
-│   └── jobs <br>
-│       ├── movie <br>
-│       │   ├── __init__.py <br>
-│       │   ├── __init__.pyc <br>
-│       │   ├── items.py `数据模型`<br>
-│       │   ├── items.pyc <br>
-│       │   ├── middlewares.py <br>
-│       │   ├── pipelines.py `保存数据到MySQL`<br>
-│       │   ├── pipelines.pyc <br>
-│       │   ├── settings.py <br>
-│       │   ├── settings.pyc <br>
-│       │   └── spiders <br>
-│       │       ├── __init__.py <br>
-│       │       ├── __init__.pyc <br>
-│       │       ├── jobs.py `爬取数据`<br>
-│       │       └── jobs.pyc <br>
-│       └── scrapy.cfg <br>
-├── pythonJob `cron爬虫定时任务`<br>
-├── README.md <br>
-└── ROOT `tomcat根目录`<br>
-    ├── code `java Servlet RESTful 接口源码`<br>
-    │   ├── GetAreasList.java `获取地区`<br>
-    │   ├── JobsDistribut.java `获取某地区多个岗位的数量和待遇分布`<br>
-    │   └── MySQLDBCon.java `访问数据库的公共文件`<br>
-    ├── view `视图文件`<br>
-    │   ├── highcharts `图表插件`<br>
-    │   ├── Bootstrap `前端视图框架`<br>
-    │   ├── index.html `前端入口`<br>
-    │   ├── jobCharts.js `当前页面JS`<br>
-    │   └── test.html <br>
-    └── WEB-INF `java编译后的文件和路由配置`<br>
-        ├── classes <br>
-        │   ├── com <br>
-        │   │   └── dbCon <br>
-        │   │       └── MySQLDBCon.class <br>
-        │   ├── GetAreasList.class <br>
-        │   └── JobsDistribut.class <br>
-        └── web.xml `路由配置`<br>
-        
-        
-├── <a href="https://github.com/596008520/jobSalarys/blob/master/job.sql">job.sql</a> #数据库SQL#
-├── python #python scrapy 爬虫#
+```php
+├── job.sql #数据库SQL
+├── python #python scrapy 爬虫
 │   └── jobs 
 │       ├── movie 
 │       │   ├── __init__.py 
 │       │   ├── __init__.pyc 
-│       │   ├── items.py #数据模型#
+│       │   ├── items.py #数据模型
 │       │   ├── items.pyc 
 │       │   ├── middlewares.py 
-│       │   ├── pipelines.py #保存数据到MySQL#
+│       │   ├── pipelines.py #保存数据到MySQL
 │       │   ├── pipelines.pyc 
 │       │   ├── settings.py 
 │       │   ├── settings.pyc 
 │       │   └── spiders 
 │       │       ├── __init__.py 
 │       │       ├── __init__.pyc 
-│       │       ├── jobs.py #爬取数据#
+│       │       ├── jobs.py #爬取数据
 │       │       └── jobs.pyc 
 │       └── scrapy.cfg 
-├── pythonJob #cron爬虫定时任务#
+├── pythonJob #cron爬虫定时任务
 ├── README.md 
-└── ROOT #tomcat根目录#
-    ├── code #java Servlet RESTful 接口源码#
-    │   ├── GetAreasList.java #获取地区#
-    │   ├── JobsDistribut.java #获取某地区多个岗位的数量和待遇分布#
-    │   └── MySQLDBCon.java #访问数据库的公共文件#
-    ├── view #视图文件#
-    │   ├── highcharts #图表插件#
-    │   ├── Bootstrap #前端视图框架#
-    │   ├── index.html #前端入口#
-    │   ├── jobCharts.js #当前页面JS#
+└── ROOT #tomcat根目录
+    ├── code #java Servlet RESTful 接口源码
+    │   ├── GetAreasList.java #获取地区
+    │   ├── JobsDistribut.java #获取某地区多个岗位的数量和待遇分布
+    │   └── MySQLDBCon.java #访问数据库的公共文件
+    ├── view #视图文件
+    │   ├── highcharts #图表插件
+    │   ├── Bootstrap #前端视图框架
+    │   ├── index.html #前端入口
+    │   ├── jobCharts.js #当前页面JS
     │   └── test.html 
-    └── WEB-INF #java编译后的文件和路由配置#
+    └── WEB-INF #java编译后的文件和路由配置
         ├── classes 
         │   ├── com 
         │   │   └── dbCon 
         │   │       └── MySQLDBCon.class 
         │   ├── GetAreasList.class 
         │   └── JobsDistribut.class 
-        └── web.xml #路由配置#
-
+        └── web.xml #路由配置
 ```
 
