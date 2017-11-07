@@ -6,6 +6,7 @@
 
 ## 预览图-点击进入
 ![预览图-点击访问](http://182.61.27.134:8080/view/index.html)
+![Screenshot](https://raw.githubusercontent.com/stefanzweifel/laravel-stats/master/screenshot.png)
 
 ## 技术说明：
 * 基于Bootstrap，Highcharts 构建的前端交互界面;<br>
