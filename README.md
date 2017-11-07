@@ -19,47 +19,6 @@
 
 ## 目录介绍：
 
-├── job.sql `数据库SQL`<br>
-├── python `python scrapy 爬虫`<br>
-│   └── jobs <br>
-│       ├── movie <br>
-│       │   ├── __init__.py <br>
-│       │   ├── __init__.pyc <br>
-│       │   ├── items.py `数据模型`<br>
-│       │   ├── items.pyc <br>
-│       │   ├── middlewares.py <br>
-│       │   ├── pipelines.py `保存数据到MySQL`<br>
-│       │   ├── pipelines.pyc <br>
-│       │   ├── settings.py <br>
-│       │   ├── settings.pyc <br>
-│       │   └── spiders <br>
-│       │       ├── __init__.py <br>
-│       │       ├── __init__.pyc <br>
-│       │       ├── jobs.py `爬取数据`<br>
-│       │       └── jobs.pyc <br>
-│       └── scrapy.cfg <br>
-├── pythonJob `cron爬虫定时任务`<br>
-├── README.md <br>
-└── ROOT `tomcat根目录`<br>
-    ├── code `java Servlet RESTful 接口源码`<br>
-    │   ├── GetAreasList.java `获取地区`<br>
-    │   ├── JobsDistribut.java `获取某地区多个岗位的数量和待遇分布`<br>
-    │   └── MySQLDBCon.java `访问数据库的公共文件`<br>
-    ├── view `视图文件`<br>
-    │   ├── highcharts `图表插件`<br>
-    │   ├── Bootstrap `前端视图框架`<br>
-    │   ├── index.html `前端入口`<br>
-    │   ├── jobCharts.js `当前页面JS`<br>
-    │   └── test.html <br>
-    └── WEB-INF `java编译后的文件和路由配置`<br>
-        ├── classes <br>
-        │   ├── com <br>
-        │   │   └── dbCon <br>
-        │   │       └── MySQLDBCon.class <br>
-        │   ├── GetAreasList.class <br>
-        │   └── JobsDistribut.class <br>
-        └── web.xml `路由配置`<br>
-
 ```php
 
 ├── job.sql `数据库SQL`<br>
@@ -101,5 +60,7 @@
         │   │       └── MySQLDBCon.class <br>
         │   ├── GetAreasList.class <br>
         │   └── JobsDistribut.class <br>
-        └── web.xml `路由配置`<br>
+        └── web.xml `路由配置`<br>
+
+```
 
