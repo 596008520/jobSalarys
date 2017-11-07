@@ -2,7 +2,9 @@
 
 ## 项目功能：
 ```用户输入任何想要查询的多个岗位，选择查询地区，即可知道该地区，岗位的需求数量和待遇分布情况```
-
+## 预览图
+![Screenshot](https://raw.githubusercontent.com/stefanzweifel/laravel-stats/master/screenshot.png)
+* [项目公开地址](http://182.61.27.134:8080/view/index.html)
 ## 技术说明：
 * 基于Bootstrap，Highcharts 构建的前端交互界面;<br>
 * 基于JAVA Servlet 框架的 RESTful API  后台数据接口;<br>
