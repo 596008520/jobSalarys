@@ -18,44 +18,10 @@
 * java程序会把用户查询的岗位名称保存到MySQL中，python爬虫定时执行，按周期去更新MySQL数据表，这样，既保证了查询的快速响应，也保证了数据的准确实时<br>
 
 ## 目录介绍：
-├──── job.sql /*数据库*/<br>
-├──── python /*数据爬虫*/<br>
-│   ├──── jobs<br>
-│   │   ├──── movie<br>
-│   │   │   ├──── __init__.py<br>
-│   │   │   ├──── __init__.pyc<br>
-│   │   │   ├──── items.py<br>
-│   │   │   ├──── items.pyc<br>
-│   │   │   ├──── middlewares.py<br>
-│   │   │   ├──── pipelines.py<br>
-│   │   │   ├──── pipelines.pyc<br>
-│   │   │   ├──── settings.py<br>
-│   │   │   ├──── settings.pyc<br>
-│   │   │   └──── spiders<br>
-│   │   │       ├──── __init__.py<br>
-│   │   │       ├──── __init__.pyc<br>
-│   │   │       ├──── jobs.py<br>
-│   │   │       └──── jobs.pyc<br>
-│   │   └──── scrapy.cfg<br>
-│   └──── jobSalarys<br>
-│       ├──── LICENSE<br>
-│       └──── README.md<br>
-├──── pythonJob /*启动爬虫的定时任务*/<br>
-└──── ROOT /*tomcat根目录*/<br>
-    ├──── code /*java RESTful Web源代码*/<br>
-    │   ├──── GetAreasList.java<br>
-    │   ├──── JobsDistribut.java<br>
-    │   └──── MySQLDBCon.java<br>
-    ├──── view /*视图文件*/<br>
-    │   ├──── highcharts /*图表插件*/<br>
-    │   ├──── index.html<br>
-    │   ├──── jobCharts.js<br>
-    │   └──── test.html<br>
-    └──── WEB-INF<br>
-        ├──── classes<br>
-        │   ├──── com<br>
-        │   │   └──── dbCon<br>
-        │   │       └──── MySQLDBCon.class<br>
-        │   ├──── GetAreasList.class<br>
-        │   └──── JobsDistribut.class<br>
-        └──── web.xml<br>
+
+前端视图文件
+view/
+├── highcharts `图表插件`
+├── index.html `前端入口`
+├── jobCharts.js `当前页面Js`
+└── test.html
