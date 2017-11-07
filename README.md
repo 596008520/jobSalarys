@@ -63,7 +63,7 @@
         └── web.xml `路由配置`<br>
         
         
- ├── job.sql #数据库SQL#
+├── [job.sql](https://github.com/596008520/jobSalarys/blob/master/job.sql) #数据库SQL#
 ├── python #python scrapy 爬虫#
 │   └── jobs 
 │       ├── movie 
