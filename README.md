@@ -19,7 +19,7 @@
 
 ## 目录介绍：
 
-```php
+```html
 
 ├── job.sql `数据库SQL`<br>
 ├── python `python scrapy 爬虫`<br>
