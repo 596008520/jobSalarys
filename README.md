@@ -7,7 +7,7 @@
 ![Screenshot](https://raw.githubusercontent.com/596008520/jobSalarys/master/preview.png)
 
 ## 项目功能：
-用户输入任何想要查询的多个岗位，选择查询地区，即可知道该地区，岗位的需求数量和待遇分布情况 [项目演示地址](http://182.61.27.134:8080/view/index.html)
+用户输入任何想要查询的多个岗位，选择查询地区，即可知道该地区，岗位的需求数量和待遇分布情况，数据是在真实互联网中抓取，具有一定的参考意义哦 [项目演示地址](http://182.61.27.134:8080/view/index.html)
 
 ## 技术说明：
 * 演示平台为:百度云服务器BCC，系统Ubuntu/14.04.1(64bit)，Web应用服务器为Tomcat/8.0.47;<br>
