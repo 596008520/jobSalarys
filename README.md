@@ -1,5 +1,8 @@
 # 网络爬虫--岗位需求与待遇分布
 
+## 项目背景
+作者是一名PHPer，闲暇之余，出于对大数据的好奇，基于 JAVA Servlet 和 python scrapy 做的一个玩具项目，也是为了考验自己在新语言环境下解决问题的能力，从开发到部署用了10天
+
 ## 预览图
 ![Screenshot](https://raw.githubusercontent.com/596008520/jobSalarys/master/preview.png)
 
